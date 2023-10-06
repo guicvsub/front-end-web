@@ -5,7 +5,9 @@
         .container{
             background-color: lightblue;
             display: flex;
-            flex-direction: row;
+            flex-direction: row;  /*row-reverse*/
+            width: 200px;
+            flex-wrap: wrap;
         }
         .item{
            
@@ -15,7 +17,7 @@
         }
         @media (max-width:800px){
             .container{
-                flex-direction: column;
+                flex-direction: row; /*column-reverse;*/
                 background-color: red;
             }
         }
@@ -25,7 +27,7 @@
             <p class="item">teste1</p>
             <p class="item">teste2</p>
             <p class="item">teste3</p>
-
+            <p class="item">teste4</p>
 
         </div>
     </body>
