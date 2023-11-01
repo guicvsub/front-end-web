@@ -24,6 +24,7 @@ box-sizing: border-box;
 }
 .bt{
     grid-area: bt;
+  
 }
 .menu__nav{
     background-color: #201c54;
@@ -90,4 +91,12 @@ a{
     width: 150px;
     color: #fff;
     text-align: center;
+    
+}
+.footer{
+    background-color: #34aca4;
+    display: flex;
+    text-align: center;
+    height: 20ox;
+    color: #fff;
 }
